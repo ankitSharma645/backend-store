@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://store-app-assignment.netlify.app', // Your frontend URL
+  origin: 'https://stores-rating-app.netlify.app', // Your frontend URL
   credentials: true
 }));
 
