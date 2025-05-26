@@ -44,7 +44,7 @@ router.post('/', authorize('admin'), createStore);
 router.get('/:id', getStore);
 
 // User dynamic routes
-router.post('/:id/rating', authorize('user'), submitRating);
+router.post('/:id/ratings', authorize('user'), submitRating);
 router.get('/:id/my-rating', authorize('user'), getMyRating);
 
 // Store owner dynamic route
